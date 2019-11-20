@@ -4,7 +4,7 @@ import apriori as ap
 """
     测试
 """
-filename='D:\study\Data Mining\上机实验数据文件.txt'                       #测试实验文本数据
+filename='D:\study\Data Mining\上机实验数据文件.txt'                       #该路径是在本机中位置，测试实验文本数据
 data_set=ap.load_data_set(filename)
 #data_set = [['l1', 'l2', 'l5'], ['l2', 'l4'], ['l2', 'l3'],
 #            ['l1', 'l2', 'l4'], ['l1', 'l3'], ['l2', 'l3'],
